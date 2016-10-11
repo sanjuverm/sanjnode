@@ -34,3 +34,7 @@ I think that the mongoose library does this but do verify
 
 
 ### Heroku Deployment Hints
+heroku login
+heroku create
+git push heroku master
+heroku open
