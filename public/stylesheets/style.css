@@ -1,0 +1,140 @@
+/* ===================FONT TEST============================================== */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+.large-title {
+  font-family: "Roboto Thin", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.large-title-fixed {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.anyclass-a {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+.anyclass-b {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+.anyclass-c {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 100;
+  color: black;
+  /*color: #527543;*/
+}
+
+
+
+/* =======================MEDIA QUERIES==================================== */
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1::after {
+    height: 8px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .intro {
+    padding: 0 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h1::after {
+    height: 6px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+  h1::after {
+    height: 4px;
+  }
+}
+
+/* ===================FADE INS============================================== */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
