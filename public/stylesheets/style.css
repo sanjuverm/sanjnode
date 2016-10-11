@@ -98,7 +98,15 @@ a, a:active, a:visited {
   background: green;
   /*background:#FFF;*/
 }
-
+.navbarPicHeader {
+  padding: 0px;
+  height: 30px;
+}
+.navbarPicHeader>img {
+  height: 10%;
+  padding: 15px;
+  width: auto;
+}
 
 
 /* ===================FONT TEST============================================== */
