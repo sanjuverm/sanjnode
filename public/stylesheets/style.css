@@ -116,6 +116,10 @@ div {
     display: block;
 }
 
+.links{
+  color: #FFFFFF;
+}
+
 .bodyheader{
   /*padding-left: 60px;*/
   text-align: center;
@@ -126,7 +130,7 @@ div {
     float: left;
     width: 100%;
     overflow: hidden;
-    background: #b2f0f9;
+    background: #799762;
 }
 
 #container3 {
@@ -135,7 +139,7 @@ div {
     width: 100%;
     position: relative;
     right: 25%;
-    background: #89ffa2;
+    background: #C6DB9F;
 }
 
 #container2 {
@@ -144,7 +148,7 @@ div {
     width: 100%;
     position: relative;
     right: 25%;
-    background: #ffa7a7;
+    background: #799762;
 }
 
 #container1 {
@@ -152,7 +156,7 @@ div {
     width: 100%;
     position: relative;
     right: 25%;
-    background: #fff689;
+    background: #C6DB9F;
 }
 
 #col1 {
