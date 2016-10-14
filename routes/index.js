@@ -8,10 +8,17 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/game', function(req, res, next) {
-  res.render('game', { title: 'Express' });
-  billboard(function(songs){
-    console.log(songs); //prints array of top 100 songs
-  });
+  //Pick a number at random from 0 to 100
+  var randomNum = Math.floor((Math.random() * 100) + 1);
+
+  // if(!err){
+    billboard(function(songs){
+      //console.log(songs); //prints array of top 100 songs
+      // console.log(songs[randomNum]);
+      var magicSong = songs[randomNum];
+      res.render('game', { title: 'Express' , billboard100songs: songs, magicSong:magicSong});
+    });
+  // }
 });
 
 router.get('/writing', function(req, res, next) {
