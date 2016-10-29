@@ -37,4 +37,8 @@ router.get('/writing', function(req, res, next) {
   res.render('writing', { title: 'Express' });
 });
 
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Express' });
+});
+
 module.exports = router;
