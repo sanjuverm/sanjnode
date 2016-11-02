@@ -107,6 +107,92 @@ a, a:active, a:visited {
   padding: 15px;
   width: auto;
 }
+/* ===================PILOT INFO PAGE TEST============================================== */
+#pilot-body{
+  float: left;
+  left: 0;
+	top: 0;
+	width: 50%;
+	/*height: 100%;*/
+	background-color: #3973ac;
+	opacity: 1;
+	color: white;
+	font-size: 50px;
+}
+
+#pilot-name {
+	text-align: center;
+	font-size: 30px;
+}
+
+#pilot-description{
+  text-align: center;
+	color: white;
+	font-size: 20px;
+	margin: 50px;
+	margin-top: 0px;
+  padding-left: 20px;
+}
+#pilot-right-column {
+	float: right;
+	width: 50%;
+	height: 100%;
+	right: 0;
+}
+
+#pilot-experiences h2{
+	padding: 20px;
+	width: 20%;
+}
+
+#right-column-content {
+  float: left;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	background: white;
+	width: 86%;
+	/*height: 80%;*/
+	border-radius: 5px;
+	padding: 3%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	opacity: 0.6;
+}
+
+.work {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.pilot-pic {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: normal;
+  width:50%;
+}
+.pilot-pic1 {
+	float: left;
+  width:50%;
+}
+
+.important {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#work-place {
+	font-size: 20px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
 
 /* ===================MODAL TEST============================================== */
 
