@@ -162,7 +162,45 @@ a, a:active, a:visited {
 	right: 0;
 	opacity: 0.6;
 }
+.button-project {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #115D6A;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
+.button-project span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-project span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-project:hover span {
+  padding-right: 25px;
+}
+
+.button-project:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .work {
 	font-size: 16px;
 	margin-bottom: 10px;
