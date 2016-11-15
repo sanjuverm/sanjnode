@@ -45,4 +45,7 @@ router.get('/pilot', function(req, res, next) {
   res.render('pilot', { title: 'Express' });
 });
 
+router.get('/united', function(req, res, next) {
+  res.render('united', { title: 'Express' });
+});
 module.exports = router;
