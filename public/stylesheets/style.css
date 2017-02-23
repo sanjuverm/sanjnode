@@ -108,6 +108,7 @@ a, a:active, a:visited {
   width: auto;
 }
 /* ===================PILOT INFO PAGE TEST============================================== */
+
 #pilot-body{
   float: left;
   left: 0;
@@ -118,6 +119,7 @@ a, a:active, a:visited {
 	opacity: 1;
 	color: white;
 	font-size: 50px;
+  flex-grow: 1;
 }
 
 #pilot-name {
