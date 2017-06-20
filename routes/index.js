@@ -52,4 +52,8 @@ router.get('/gilmorning', function(req, res, next) {
 router.get('/united', function(req, res, next) {
   res.render('united', { title: 'Express' });
 });
+
+router.get('/helloquinn', function(req, res, next) {
+  res.render('helloquinn', { title: 'Express', layout:'quinnlayout.hbs' });
+});
 module.exports = router;

@@ -33,6 +33,11 @@ Lastly, start your server in a different terminal window using __nodemon__ to au
 I think that the mongoose library does this but do verify
 
 
+###Github Commit
+git add .
+git commit -m "commit message here"
+git push origin master
+
 ### Heroku Deployment Hints
 heroku login
 heroku create
